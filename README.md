@@ -1,4 +1,4 @@
-<h1 style="color:Tomato;">HTML Etiketleri Kullanımı</h1>
+<h1><b>HTML Etiketleri Kullanımı</b></h1>
 
 <h2><mark>Başlık ve Biçimlendirme</mark></h2>
 <p>Bu bölümde başlık ve biçimlendirme etiketleri kullanıldı</p>
