@@ -2,16 +2,28 @@
 
 <h2><mark>Başlık ve Biçimlendirme</mark></h2>
 <p>Bu bölümde başlık ve biçimlendirme etiketleri kullanıldı.</p>
+
 <table border="2">
   <tr>
     <th>Etiket</th>
     <th>Açıklama</th>
   </tr>
   <tr>
-    <td>"<b>"</td>
+    <td>"b"ve"strong"</td>
     <td>Metni kalın yazı şeklinde gösterir.</td>
   </tr>
-<h2>Sıralı ve Sırasız Listeler</h2>
-<p><li><mark><b>Sıralı Liste:</b></mark>ol(Ordered List) etiketi kullanılır.</li></p>
-<p><li><mark><b>Sırasız Liste:</b></mark>ul(Unordered List) etiketi kullanılır.</li></p>
+  <tr>
+    <td>"i"ve"em"</td>
+    <td>Metni italic şekilde gösterir.</td>
+  </tr>
+  <tr>
+    <td>"u"ve"ins"</td>
+    <td>Metnin altı çizili şekilde gösterir.</td>
+  </tr>
+  <tr>
+    <td>"small"</td>
+    <td>Metni olduğundan küçük gösterir.</td>
+  </tr>
+      
+      
 
