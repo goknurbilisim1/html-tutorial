@@ -45,7 +45,11 @@
     <td>"mark"</td>
     <td>Metnin üstünü işaretli gösterir.</td>
   </tr>
+</table>
   <h2><mark>Sıralı ve Sırasız Listeler</mark></h2>
+  <p><li>Sıralı Liste(Ordered List):ol etiketi kullanılır.</li></p>
+  <p><li>Sırasız Liste(Unordered List):ul etiketi kullanılır.</li></p>
+  
       
       
   
