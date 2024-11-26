@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Oluşturma</title>
+</head>
+<body>
+    <h1>Müşteri Kayıt Formu</h1>
+    <form action="https://yazilimbilisim.net/ogrenciler/kontrol.php" method="post">
+        <fieldset>
+            <legend>Kişisel Bilgileri</legend>
+            <label for="sad">Ad-Soyad</label><br>
+            <input type="text" name="sad" id="sad" required><br><br>
+
+            <label for="dtarih"> Doğum Tarihi</label><br>
+            <input type="date" name="tarih" id="tarih" value="2000-01-01"> <br><br>
+
+            <label for="maas"> Maaş Beklentiniz</label><br>
+            <input type="number" name="maas" id="maas" min="20000" max="60000" step="1000"><br><br>
+
+
+            <label for="ders">Sevdiğiniz Dersler</label>
+            <input type="text" name="ders" id="ders" list="dersler">
+            <datalist id="dersler">
+                <option value="Web Tabanlı Uygulama Geliştirme">
+                <option value="Mobil Uygulama Geliştirme">
+                <option value="Yapay Zeka ve Makine Öğrenimi">
+                <option value="Grafik Canlandırma">
+            </datalist>
+        </fieldset>
+        <fieldset>
+            <legend>Üyelik Bilgileri</legend>
+            <label for="kad">Kullanıcı Adı</label>
+            <input type="text" name="kad" id="kad" maxlength="5" pattern="[A-Za-z]+"><br><br>
+
+            <label for="eposta">E-Postanız</label>
+            <input type="email" name="eposta" id="eposta"><br><br>
+
+            <label for="sifre">Şifre</label>
+            <input type="password" name="sifre" id="sifre" minlength="8"><br><br>
+
+            <label for="sozlesme"> Üyelik Sözleşmesi</label>
+            <textarea name="sozlesme" id="sozlesme" rows="5" cols="30" placeholder="Yazınızı Buraya Yazınız...."></textarea>
+        </fieldset>
+        <button type="submit"> Kaydet </button>
+        <button type="reset"> Temizle </button>
+    </form>
+</body>
+</html>
