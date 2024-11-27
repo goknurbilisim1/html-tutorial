@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Oluşturma Quiz</title>
+</head>
+<body>
+    <h1>GÖKNUR DURAN</h1>
+    <form action="https://yazilimbilisim.net/ogrenciler/kontrol.php" method="post">
+        <fieldset>
+            <legend>Göknur Duran</legend>
+
+            <label for="guvenlik">Güvenlik Anahtarı</label><br>
+            <input type="text" name="guvenlik" id="guvenlik" value="6542184324106843216813" disabled><br><br>
+            
+
+            <label for="eposta">E-posta:</label><br>
+            <input type="email" name="eposta" id="eposta" placeholder="Örn:admin@mail.com" required><br><br>
+
+            <label for="dtarih">Doğum Tarihi</label><br>
+            <input type="date" name="dtarih" id="dtarih" min="2000-01-01" max="2010-12-31"><br><br>
+
+            <label for="sifre">Şifre</label><br>
+            <input type="password" name="sifre" id="sifre" minlength="8" required><br><br>
+
+            <label for="secim">Avatar Seçimi</label><br>
+            <select name="secim" id="secim" ><br><br>
+                <option value="1" selected>Dory</option>
+                <option value="2">Nemo</option>
+                <option value="3">Moana</option>
+                <option value="4">Rango</option>
+            </select>
+           
+        </fieldset>
+
+        <button type="submit">Kaydet</button>
+        <button type="reset">Temizle</button>
+    </form>
+</body>
+</html>
