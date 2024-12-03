@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radio ve Checkbox</title>
+</head>
+<body>
+    <h1>Kampanyalar</h1>
+    <form action="https://yazilimbilisim.net/ogrenciler/kontrol.php" method="post">
+        <fieldset>
+            <legend>Hangi Kitaplarda %60 İndirim İstersiniz...</legend>
+            <input type="radio" name="kampanya" id="kamp1" value="Test Kitabı">
+            <label for="kamp1">Test Kitapları</label><br>
+
+            <input type="radio" name="kampanya" id="kamp2" value="Deneme Kitapları">
+            <label for="kamp2">Deneme Kitapları</label><br>
+
+            <input type="radio" name="kampanya" id="kamp3" value="Okuma Kitaları">
+            <label for="kamp3">Okuma Kitapları</label><br>
+        </fieldset>
+        <fieldset>
+            <legend>Hangi Kitapları Talep Edersiniz</legend>
+            <input type="checkbox" name="urun[]" id="urun1" value="Paragraf">
+            <label for="urun1">Paragraf Test Kitabı</label><br>
+
+            <input type="checkbox" name="urun[]" id="urun2" value="Edebiyat Test Kitabı">
+            <label for="urun2">Edebiyat Test Kitabı</label><br>
+
+            <input type="checkbox" name="urun[]" id="urun3" value=" Tyt Türkçe Deneme">
+            <label for="urun3">Türkçe Deneme</label><br>
+
+            <input type="checkbox" name="urun[]" id="urun4" value="Tyt Matemetik Deneme">
+            <label for="urun4">Tyt Matemetik Deneme</label><br>
+
+            <input type="checkbox" name="urun[]" id="urun5" value="Romanlar">
+            <label for="urun5">Romanlar</label><br>
+        </fieldset>
+        <br>
+        <button type="submit">Kaydet</button>
+        <button type="reset">Temizle</button>
+    </form>
+</body>
+</html>
